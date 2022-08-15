@@ -304,9 +304,183 @@ footer .div2{
     display: flex;
     flex-direction: row;
     padding: 30px 190px;
-    gap: 420px;
+    justify-content: space-between;
     background-color: #1e1e1e;
 }
 .social-media img{
     margin-right: 60px;
+}
+
+
+@media screen and (max-width:1200px){
+    nav>.nav-list{
+        margin-right: 0px;
+    }
+    .hero-right{
+        width: 50%;
+    }
+    .hero-right>h4{
+        font-size: 15px;
+    }
+    .hero-right>h1{
+        font-size: 30px;
+    }
+    .hero-right>p{
+        width: 400px;
+    }
+    .a-card{
+        padding: 20px;
+    }
+    .section-2{
+        padding: 40px 17px;
+    }
+
+}
+@media screen and (max-width:1100px){
+    .hero-left{
+        width: 60%;
+    }
+    .hero-left >img{
+        width: 550px;
+    }
+    .a-card{
+        padding: 5px;
+    }
+    .analytics{
+        gap: 50px;
+    }
+    .sec-2-card>img{
+        width: 515px;
+    }
+    .social-media>img{
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width:1000px){
+    .section-1::before{
+        height: 785px;
+    }
+    .sec-2-card>img{
+        width: 415px;
+    }
+    .sec-2-card{
+        width: 415px;
+    }
+    .s-3-left>h1{
+        font-size: 30px;
+        width: 300px;
+    }
+    .s-3-left>p{
+        width: 300px;
+    }
+    .social-media>img{
+        margin-right: 10px;
+    }
+    footer .div2{
+        gap: 300px;
+        padding: 30px 220px;
+    }
+}
+@media screen and (max-width:900px){
+    .analytics{
+        gap: 13px;
+        padding: 0px 250px;
+    }
+    .hero-right>p{
+        width: 290px;
+    }
+    footer .div2{
+        gap: 300px;
+        padding: 30px 20px;
+    }
+}
+@media screen and (max-width:800px){
+    .hero-left >img{
+        width: 420px;
+    }
+    .hero-right{
+        margin-top: 120px;
+    }
+    .btn{
+        padding: 6px 8px;
+    }
+    .section-1::before{
+        height: 755px;
+        width: 520px;
+    }
+    .cards{
+        padding-left: 210px;
+    }
+    .card>img{
+        width: 40px;
+    }
+    .card h4{
+        margin: 5px 0;
+        font-size: 20px;
+    }
+    .card p{
+        font-size: 12px;
+    }
+    .analytics{
+        gap: 13px;
+        padding: 0px 140px;
+    }
+    .hero-right>p{
+        width: 290px;
+    }
+    .sec-2-card>img{
+        width: 340px;
+        height: 250px;
+    }
+    .sec-2-card{
+        width: 340px;
+        height: 290px;
+    }
+    .section-3{
+        margin: 60px;
+    }
+    .s-3-left>h1{
+        font-size: 22px;
+        width: 240px;
+    }
+    .s-3-left>p{
+        width: 240px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .hero-left>img{
+        width: 320px;
+    }
+    .hero-left{
+        width: 70%;
+    }
+    .hero-right>h1{
+        font-size: 20px;
+    }
+    .hero-right>p{
+        font-size: 12px;
+    }
+    .sec-2-head{
+        width: 125%;
+    }
+    footer{
+        width: 125%;
+    }
+}
+@media screen and (max-width:500px){
+    .hero-right{
+        margin-left: 90px;
+        margin-top: 70px;
+    }
+    .hero-right>p{
+        font-size: 12px;
+        width: 240px;
+    }
+    .sec-2-head{
+        width: 165%;
+    }
+    footer{
+        width: 165%;
+    }
 }
