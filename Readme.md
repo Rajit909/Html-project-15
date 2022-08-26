@@ -1,6 +1,6 @@
 ![image](https://img.shields.io/badge/project-15-red)
 
-## Project-15  [live Link](https://product-design-landing.netlify.app/)
+## Project-15  [live Link](https://product-designlanding-page.netlify.app)
 
 **Name:** Rajit kumar
 
@@ -15,4 +15,4 @@
 
 ![image](https://img.shields.io/badge/Full%20stack%20JS%20bootcamp-Hitesh%20Chaudhary-lightgrey)
 
-![image](https://github.com/Rajit909/Html-project-15/15.png)
+![image](https://github.com/Rajit909/Html-project-15/blob/main/Product%20Design%20LandingPage.png)
