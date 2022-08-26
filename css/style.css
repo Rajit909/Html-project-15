@@ -395,21 +395,33 @@ footer .div2{
     }
 }
 @media screen and (max-width:800px){
-    .hero-left >img{
-        width: 420px;
+    .nav-list{
+        display:none;
+    }
+    .hero-section{
+        flex-direction: column;
+        
     }
     .hero-right{
         margin-top: 120px;
+        width: 100%;
+        margin-left: 50px;
     }
-    .btn{
-        padding: 6px 8px;
+    .hero-right h4{
+        font-size: 20px;
+    }
+    .hero-right h1{
+        font-size: 3.5rem;
+    }
+    .hero-right p{
+        width: 500px;
+        margin-left: 5px;
+        margin-bottom: 30px;
+        margin-top: 10px;
     }
     .section-1::before{
         height: 755px;
         width: 520px;
-    }
-    .cards{
-        padding-left: 210px;
     }
     .card>img{
         width: 40px;
@@ -448,19 +460,26 @@ footer .div2{
     }
 }
 
-@media screen and (max-width:600px){
-    .hero-left>img{
-        width: 320px;
+@media screen and (max-width:750px){
+    .sec-2-cards{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
     }
-    .hero-left{
-        width: 70%;
+    .sec-2-card{
+        font-family: sans-serif;
+        margin-bottom: 150px;
+        margin-left: 60px;
+        
+    
     }
-    .hero-right>h1{
-        font-size: 20px;
+    .sec-2-card img{
+        width: 558px;
+        height: 330px;
     }
-    .hero-right>p{
-        font-size: 12px;
-    }
+    
+}
+    @media screen and (max-width:600px){
     .sec-2-head{
         width: 125%;
     }
@@ -469,14 +488,6 @@ footer .div2{
     }
 }
 @media screen and (max-width:500px){
-    .hero-right{
-        margin-left: 90px;
-        margin-top: 70px;
-    }
-    .hero-right>p{
-        font-size: 12px;
-        width: 240px;
-    }
     .sec-2-head{
         width: 165%;
     }
